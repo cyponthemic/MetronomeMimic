@@ -1,0 +1,25 @@
+.snapshot-team {
+	width: 100%;
+}
+.team-list{
+		&>div {
+			
+			margin-top: 40px;
+			/* padding: 40px; */
+			/* margin: 10px; */
+			.inner {
+				padding: 40px;
+				background: white;
+			}
+			h3 {
+				font-size: 17px;
+				font-weight: lighter;
+				text-transform: capitalize;
+				
+			}
+			h4 {
+				font-size: 16px;
+				color: $metro-second-color;
+			}
+		}
+}

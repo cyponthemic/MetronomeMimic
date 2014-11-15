@@ -1,0 +1,38 @@
+
+.blog {
+	.post{
+		background-color: white;
+		.inner{
+			margin: 0px 20px;
+			h3 {
+			text-transform: none;
+			line-height: 42px;
+			}
+		}
+	}
+	
+}
+
+
+.sidebar {
+	.inner {
+		
+		padding:40px;
+		background-color: white;
+		.archive-list {
+			list-style: none;
+			padding-left: 0px;
+			margin-left: 0px;
+				li {
+					a{
+						font-size: 100%;
+					}
+				
+			}
+			
+		}
+		
+		
+		
+	}
+}

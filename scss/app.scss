@@ -1,6 +1,13 @@
+@import "customvariables";
 @import "settings";
 @import "foundation";
-@import "frontpage";
+@import "pages/header";
+@import "pages/contact";
+@import "pages/work";
+@import "pages/team";
+@import "pages/frontpage";
+@import "pages/approach";
+@import "pages/tempo";
 
 // Or selectively include components
 // @import

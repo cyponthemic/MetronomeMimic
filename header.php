@@ -41,7 +41,7 @@
 		        <li><a href="approach.php">approach</a></li>
 		        <li><a href="work.php">work</a></li>
 		        <li><a href="team.php">team</a></li>
-		        <li><a href="#">tempo blog</a></li>
+		        <li><a href="tempo.php">tempo blog</a></li>
 		        <li><a href="#">now hiring</a></li>
 		        <li><a href="contact.php">contact</a></li>
 		      </ul>

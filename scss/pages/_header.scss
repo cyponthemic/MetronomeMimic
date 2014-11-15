@@ -1,0 +1,81 @@
+body {
+	background: $metro-second-color;
+}
+
+
+h1{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	}
+
+
+h3 {
+		text-transform: uppercase;
+		font-weight: lighter;
+		letter-spacing: 3px;
+	}
+
+
+.work,.contact,.team,.approach,.tempo {
+	padding: 40px;
+	@media #{$small-only} { 
+		padding: 20px;}
+		}
+
+
+.heading {
+	margin-bottom: 60px;
+	
+	small{
+		text-transform: lowercase;
+	}
+
+}
+
+
+.dots {
+	display: inline-block;
+	width: 100%;
+	img {
+		height: $tabbar-height/3;
+			
+		-webkit-animation: dots 3s   infinite; /* Chrome, Safari, Opera */
+		animation: dots 3s  infinite ;
+		}
+		
+	
+	h1 {
+		margin-left: 10px;
+		display: inline-block;
+		text-transform: lowercase;
+	}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes dots {
+    0% {opacity: 0;}
+    50% {opacity:1;}
+    100% {opacity: 0;}
+}
+
+/* Standard syntax */
+@keyframes dots {
+    0% {opacity: 0;}
+    50% {opacity:1;}
+    100% {opacity: 0;}
+}			
+
+.off-canvas-list {
+	margin-top: $tabbar-height;
+	
+	li{
+	padding-left: 40px;
+	padding-right: 40px; 
+		
+		a {
+			font-weight: bold;
+			&:hover{
+				color:white;
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+@mixin project_bg($projects...){
+	@each $project in $projects{
+		.#{$project}{
+			display: block;
+			background-image: url("../img/#{$project}.png");
+			background-size: cover;
+			height:300px;
+			&:hover{
+			filter: grayscale(20%);
+			}
+
+		}
+	}
+}
+
+.work {
+	.project{
+		margin-top:10px;
+		margin-bottom: 10px;
+		@include project_bg(australand,mbs,aquila,alliance);
+		.inner{	
+			padding: 20px 40px;
+			background: black;
+			h3 {
+				width: 100%;
+				color: white;
+				text-transform: uppercase;
+				font-weight: lighter;
+				letter-spacing: 5px;
+			}
+		}
+	}
+}
